@@ -1,0 +1,7 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\ArrayIndiceExpresionNoEntera.txt'...
+[10,16] SEM: El indice de un vector debe ser una expresi¢n entera.
+[11,14] SEM: El indice de un vector debe ser una expresi¢n entera.
+[12,15] SEM: El indice de un vector debe ser una expresi¢n entera.

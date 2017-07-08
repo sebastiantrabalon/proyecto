@@ -1,0 +1,16 @@
+const M : integer = 7;
+var N : integer;
+
+function FUN1(T:integer) : integer;
+begin
+end-func T*5;
+
+procedure MAIN();
+begin
+	N := FUN1(M);
+	if(N>20) then
+		show 'N es mayor a 20 y vale ', N;
+	else
+		show 'N es menor a 20 o igual y vale ', N;
+	end-if;
+end-proc;

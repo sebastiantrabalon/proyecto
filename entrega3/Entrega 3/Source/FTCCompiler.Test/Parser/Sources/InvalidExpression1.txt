@@ -1,0 +1,5 @@
+﻿procedure MAIN();
+var A, M : integer;
+begin
+	A := A + 1 M;
+end-proc;

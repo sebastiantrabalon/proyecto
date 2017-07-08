@@ -1,0 +1,23 @@
+const M : integer = 7, R : integer = 90;
+var N, S : integer;
+var A[12] : integer;
+var X : boolean;
+
+function FUN1(T: integer, byval N2 : integer) : integer;
+var N: integer;
+function FUNINT(T : integer) : integer;
+begin
+end-func T * 45;
+begin
+  if T > 0 then
+    N := 45;
+  else
+    N := 70 * FUNINT(70);
+  end-if;
+end-func true;
+
+procedure MAIN();
+begin
+  N := M + 1;
+  N := FUN1(5, 8);
+end-proc;

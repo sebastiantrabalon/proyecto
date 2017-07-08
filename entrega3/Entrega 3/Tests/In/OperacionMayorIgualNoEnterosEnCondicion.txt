@@ -1,0 +1,14 @@
+const C1 : boolean = false, C2 : boolean = true;
+var R : boolean;
+var A[1] : boolean;
+
+function FUN1() : boolean;
+begin
+end-func true;
+
+procedure MAIN();
+begin
+  R := C1 >= C2;
+  R := C1 >= FUN1();
+  R := A[1] >= FUN1();
+end-proc;

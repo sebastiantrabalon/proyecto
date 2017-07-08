@@ -1,0 +1,17 @@
+﻿const N : integer = 1, T : integer = 2;
+const M : integer = 7, R : integer = 90;
+var A : boolean;
+var N, S : integer;
+var A[12] : integer;
+var K[1], B : integer;
+
+procedure TEST(id1 : integer, id2 : boolean);
+begin
+	N := N + 1;
+end-proc;
+
+procedure MAIN();
+begin
+	A := A + 1;
+end-proc;
+

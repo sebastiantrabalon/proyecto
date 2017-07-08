@@ -1,0 +1,11 @@
+var A[2]: integer;
+var B: boolean;
+
+
+procedure MAIN();
+begin
+A[1]:=true;
+A[1]:=X;
+A[1]:=B;
+
+end-proc;

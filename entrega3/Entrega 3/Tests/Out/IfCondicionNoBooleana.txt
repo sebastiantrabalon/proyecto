@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\IfCondicionNoBooleana.txt'...
+[7,3] SEM: Se esperaba una expresi¢n 'Boolean' y se encontr¢ una del tipo 'Integer'.

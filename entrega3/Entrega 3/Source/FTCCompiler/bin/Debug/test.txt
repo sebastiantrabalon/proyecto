@@ -1,0 +1,419 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'LongFile.txt'...
+[1,1] Tipo: ConstDefinition, Lexema: const
+[1,7] Tipo: Identifier, Lexema: M
+[1,9] Tipo: IdTypeSeparator, Lexema: :
+[1,11] Tipo: IntegerDataType, Lexema: integer
+[1,19] Tipo: EqualOperator, Lexema: =
+[1,21] Tipo: LiteralNumber, Lexema: 7
+[1,22] Tipo: ListSeparator, Lexema: ,
+[1,24] Tipo: Identifier, Lexema: R
+[1,26] Tipo: IdTypeSeparator, Lexema: :
+[1,28] Tipo: IntegerDataType, Lexema: integer
+[1,36] Tipo: EqualOperator, Lexema: =
+[1,38] Tipo: LiteralNumber, Lexema: 90
+[1,40] Tipo: EndOfInstruction, Lexema: ;
+
+[2,1] Tipo: VariableDefinition, Lexema: var
+[2,5] Tipo: Identifier, Lexema: N
+[2,6] Tipo: ListSeparator, Lexema: ,
+[2,8] Tipo: Identifier, Lexema: S
+[2,10] Tipo: IdTypeSeparator, Lexema: :
+[2,12] Tipo: IntegerDataType, Lexema: integer
+[2,19] Tipo: EndOfInstruction, Lexema: ;
+
+[3,1] Tipo: VariableDefinition, Lexema: var
+[3,5] Tipo: Identifier, Lexema: A
+[3,6] Tipo: LeftSquareBracket, Lexema: [
+[3,7] Tipo: LiteralNumber, Lexema: 12
+[3,9] Tipo: RightSquareBracket, Lexema: ]
+[3,11] Tipo: IdTypeSeparator, Lexema: :
+[3,13] Tipo: IntegerDataType, Lexema: integer
+[3,20] Tipo: EndOfInstruction, Lexema: ;
+
+[5,1] Tipo: ProcedureDefinition, Lexema: procedure
+[5,11] Tipo: Identifier, Lexema: PROC1
+[5,16] Tipo: LeftParenthesis, Lexema: (
+[5,17] Tipo: RightParenthesis, Lexema: )
+[5,18] Tipo: EndOfInstruction, Lexema: ;
+
+[6,1] Tipo: VariableDefinition, Lexema: var
+[6,5] Tipo: Identifier, Lexema: A
+[6,7] Tipo: IdTypeSeparator, Lexema: :
+[6,9] Tipo: IntegerDataType, Lexema: integer
+[6,16] Tipo: EndOfInstruction, Lexema: ;
+
+[7,1] Tipo: VariableDefinition, Lexema: var
+[7,5] Tipo: Identifier, Lexema: B
+[7,7] Tipo: IdTypeSeparator, Lexema: :
+[7,9] Tipo: IntegerDataType, Lexema: integer
+[7,16] Tipo: EndOfInstruction, Lexema: ;
+
+[8,1] Tipo: VariableDefinition, Lexema: var
+[8,5] Tipo: Identifier, Lexema: B
+[8,7] Tipo: IdTypeSeparator, Lexema: :
+[8,9] Tipo: BooleanDataType, Lexema: boolean
+[8,16] Tipo: EndOfInstruction, Lexema: ;
+
+[9,1] Tipo: ScopeStart, Lexema: begin
+
+[10,2] Tipo: Identifier, Lexema: B
+[10,4] Tipo: AssignOperator, Lexema: :=
+[10,7] Tipo: Identifier, Lexema: M
+[10,8] Tipo: EndOfInstruction, Lexema: ;
+
+[11,2] Tipo: Identifier, Lexema: C
+[11,4] Tipo: AssignOperator, Lexema: :=
+[11,7] Tipo: Identifier, Lexema: B
+[11,9] Tipo: GreaterThanOperator, Lexema: >
+[11,11] Tipo: LiteralNumber, Lexema: 0
+[11,12] Tipo: EndOfInstruction, Lexema: ;
+
+[12,2] Tipo: IterationWhile, Lexema: while
+[12,8] Tipo: Identifier, Lexema: C
+[12,10] Tipo: IterationDo, Lexema: do
+
+[13,3] Tipo: ConditionalIf, Lexema: if
+[13,6] Tipo: Identifier, Lexema: even
+[13,10] Tipo: LeftParenthesis, Lexema: (
+[13,11] Tipo: Identifier, Lexema: B
+[13,12] Tipo: RightParenthesis, Lexema: )
+[13,14] Tipo: ConditionalThen, Lexema: then
+
+[14,4] Tipo: Identifier, Lexema: A
+[14,6] Tipo: AssignOperator, Lexema: :=
+[14,9] Tipo: Identifier, Lexema: A
+[14,11] Tipo: AdditionOperator, Lexema: +
+[14,13] Tipo: LiteralNumber, Lexema: 1
+[14,14] Tipo: EndOfInstruction, Lexema: ;
+
+[15,3] Tipo: ConditionalEnd, Lexema: end-if
+
+[16,3] Tipo: Identifier, Lexema: showLN
+[16,10] Tipo: LiteralString, Lexema: 'Visualizacion'
+[16,25] Tipo: ListSeparator, Lexema: ,
+[16,27] Tipo: Identifier, Lexema: B
+[16,28] Tipo: ListSeparator, Lexema: ,
+[16,30] Tipo: LiteralString, Lexema: ' '
+[16,33] Tipo: ListSeparator, Lexema: ,
+[16,35] Tipo: Identifier, Lexema: A
+[16,36] Tipo: EndOfInstruction, Lexema: ;
+
+[17,3] Tipo: Identifier, Lexema: B
+[17,5] Tipo: AssignOperator, Lexema: :=
+[17,8] Tipo: Identifier, Lexema: B
+[17,10] Tipo: Error, Lexema: -
+[17,12] Tipo: LiteralNumber, Lexema: 1
+[17,13] Tipo: EndOfInstruction, Lexema: ;
+
+[18,2] Tipo: IterationEnd, Lexema: end-while
+
+[19,1] Tipo: ProcedureEnd, Lexema: end-proc
+[19,9] Tipo: EndOfInstruction, Lexema: ;
+
+[21,1] Tipo: ProcedureDefinition, Lexema: procedure
+[21,11] Tipo: Identifier, Lexema: PROC2
+[21,16] Tipo: LeftParenthesis, Lexema: (
+[21,17] Tipo: ByRef, Lexema: byref
+[21,23] Tipo: Identifier, Lexema: R
+[21,25] Tipo: IdTypeSeparator, Lexema: :
+[21,27] Tipo: Identifier, Lexema: entero
+[21,33] Tipo: RightParenthesis, Lexema: )
+[21,34] Tipo: EndOfInstruction, Lexema: ;
+
+[22,1] Tipo: ConstDefinition, Lexema: const
+[22,7] Tipo: Identifier, Lexema: T
+[22,9] Tipo: IdTypeSeparator, Lexema: :
+[22,11] Tipo: IntegerDataType, Lexema: integer
+[22,19] Tipo: EqualOperator, Lexema: =
+[22,21] Tipo: LiteralNumber, Lexema: 67
+[22,23] Tipo: EndOfInstruction, Lexema: ;
+
+[23,1] Tipo: VariableDefinition, Lexema: var
+[23,5] Tipo: Identifier, Lexema: W11
+[23,9] Tipo: IdTypeSeparator, Lexema: :
+[23,11] Tipo: IntegerDataType, Lexema: integer
+[23,18] Tipo: EndOfInstruction, Lexema: ;
+
+[24,1] Tipo: VariableDefinition, Lexema: var
+[24,5] Tipo: Identifier, Lexema: W12
+[24,8] Tipo: ListSeparator, Lexema: ,
+[24,10] Tipo: Identifier, Lexema: Q
+[24,11] Tipo: ListSeparator, Lexema: ,
+[24,13] Tipo: Identifier, Lexema: R
+[24,15] Tipo: IdTypeSeparator, Lexema: :
+[24,17] Tipo: IntegerDataType, Lexema: integer
+[24,24] Tipo: EndOfInstruction, Lexema: ;
+
+[25,1] Tipo: VariableDefinition, Lexema: var
+[25,5] Tipo: Identifier, Lexema: B
+[25,7] Tipo: IdTypeSeparator, Lexema: :
+[25,9] Tipo: BooleanDataType, Lexema: boolean
+[25,16] Tipo: EndOfInstruction, Lexema: ;
+
+[26,1] Tipo: ScopeStart, Lexema: begin
+
+[27,2] Tipo: Identifier, Lexema: S
+[27,4] Tipo: AssignOperator, Lexema: :=
+[27,7] Tipo: LeftParenthesis, Lexema: (
+[27,8] Tipo: Identifier, Lexema: S
+[27,10] Tipo: AdditionOperator, Lexema: +
+[27,12] Tipo: Identifier, Lexema: M
+[27,13] Tipo: RightParenthesis, Lexema: )
+[27,15] Tipo: MultiplicationOperator, Lexema: *
+[27,17] Tipo: LiteralNumber, Lexema: 2
+[27,18] Tipo: EndOfInstruction, Lexema: ;
+
+[28,2] Tipo: Identifier, Lexema: Q
+[28,4] Tipo: AssignOperator, Lexema: :=
+[28,7] Tipo: LiteralNumber, Lexema: 1
+[28,8] Tipo: EndOfInstruction, Lexema: ;
+
+[29,2] Tipo: Identifier, Lexema: B
+[29,4] Tipo: AssignOperator, Lexema: :=
+[29,7] Tipo: LiteralFalse, Lexema: false
+[29,12] Tipo: EndOfInstruction, Lexema: ;
+
+[30,2] Tipo: Read, Lexema: read
+[30,7] Tipo: Identifier, Lexema: W11
+[30,10] Tipo: EndOfInstruction, Lexema: ;
+
+[31,2] Tipo: Identifier, Lexema: W12
+[31,6] Tipo: AssignOperator, Lexema: :=
+[31,9] Tipo: Identifier, Lexema: AW11
+[31,14] Tipo: MultiplicationOperator, Lexema: *
+[31,16] Tipo: LiteralNumber, Lexema: 2
+[31,18] Tipo: AdditionOperator, Lexema: +
+[31,20] Tipo: Identifier, Lexema: S
+[31,21] Tipo: EndOfInstruction, Lexema: ;
+
+[32,2] Tipo: IterationWhile, Lexema: while
+[32,8] Tipo: LeftParenthesis, Lexema: (
+[32,9] Tipo: Identifier, Lexema: W12
+[32,13] Tipo: Error, Lexema: -
+[32,15] Tipo: LiteralNumber, Lexema: 2
+[32,16] Tipo: RightParenthesis, Lexema: )
+[32,18] Tipo: LessThanOrEqualOperator, Lexema: <=
+[32,21] Tipo: Identifier, Lexema: R
+[32,23] Tipo: AdditionOperator, Lexema: +
+[32,25] Tipo: Identifier, Lexema: S
+[32,27] Tipo: IterationDo, Lexema: do
+
+[33,3] Tipo: Identifier, Lexema: B
+[33,5] Tipo: AssignOperator, Lexema: :=
+[33,8] Tipo: Identifier, Lexema: B
+[33,10] Tipo: AndOperator, Lexema: and
+[33,14] Tipo: LeftParenthesis, Lexema: (
+[33,15] Tipo: Identifier, Lexema: W12
+[33,19] Tipo: GreaterThanOperator, Lexema: >
+[33,21] Tipo: LiteralNumber, Lexema: 10
+[33,23] Tipo: RightParenthesis, Lexema: )
+[33,24] Tipo: EndOfInstruction, Lexema: ;
+
+[34,3] Tipo: Identifier, Lexema: W12
+[34,7] Tipo: AssignOperator, Lexema: :=
+[34,10] Tipo: Identifier, Lexema: W12
+[34,14] Tipo: MultiplicationOperator, Lexema: *
+[34,16] Tipo: LiteralNumber, Lexema: 2
+[34,17] Tipo: EndOfInstruction, Lexema: ;
+
+[35,2] Tipo: IterationEnd, Lexema: end-while
+[35,11] Tipo: EndOfInstruction, Lexema: ;
+
+[36,2] Tipo: IterationWhile, Lexema: while
+[36,8] Tipo: Identifier, Lexema: W12
+[36,12] Tipo: AdditionOperator, Lexema: +
+[36,14] Tipo: Identifier, Lexema: M
+[36,16] Tipo: GreaterThanOperator, Lexema: >
+[36,18] Tipo: Identifier, Lexema: Y
+[36,20] Tipo: DivisionOperator, Lexema: /
+[36,22] Tipo: LiteralNumber, Lexema: 2
+[36,24] Tipo: IterationDo, Lexema: do
+
+[37,3] Tipo: Identifier, Lexema: Q
+[37,5] Tipo: AssignOperator, Lexema: :=
+[37,8] Tipo: Identifier, Lexema: Q
+[37,10] Tipo: MultiplicationOperator, Lexema: *
+[37,12] Tipo: LiteralNumber, Lexema: 2
+[37,13] Tipo: EndOfInstruction, Lexema: ;
+
+[38,3] Tipo: Identifier, Lexema: W12
+[38,7] Tipo: AssignOperator, Lexema: :=
+[38,10] Tipo: Identifier, Lexema: W12
+[38,14] Tipo: DivisionOperator, Lexema: /
+[38,16] Tipo: LiteralNumber, Lexema: 2
+[38,17] Tipo: EndOfInstruction, Lexema: ;
+
+[39,3] Tipo: ConditionalIf, Lexema: if
+[39,6] Tipo: Identifier, Lexema: W12
+[39,10] Tipo: LessThanOrEqualOperator, Lexema: <=
+[39,13] Tipo: Identifier, Lexema: R
+[39,15] Tipo: ConditionalThen, Lexema: then
+
+[40,4] Tipo: Identifier, Lexema: R
+[40,6] Tipo: AssignOperator, Lexema: :=
+[40,9] Tipo: Identifier, Lexema: R
+[40,11] Tipo: Error, Lexema: -
+[40,13] Tipo: Identifier, Lexema: W12
+[40,16] Tipo: EndOfInstruction, Lexema: ;
+
+[41,4] Tipo: Identifier, Lexema: Q
+[41,6] Tipo: AssignOperator, Lexema: :=
+[41,9] Tipo: Identifier, Lexema: Q
+[41,11] Tipo: AdditionOperator, Lexema: +
+[41,13] Tipo: LiteralNumber, Lexema: 1
+[41,14] Tipo: EndOfInstruction, Lexema: ;
+
+[42,3] Tipo: ConditionalEnd, Lexema: end-if
+[42,9] Tipo: EndOfInstruction, Lexema: ;
+
+[43,2] Tipo: IterationEnd, Lexema: end-while
+[43,11] Tipo: EndOfInstruction, Lexema: ;
+
+[44,2] Tipo: Identifier, Lexema: A
+[44,3] Tipo: LeftSquareBracket, Lexema: [
+[44,4] Tipo: LiteralNumber, Lexema: 1
+[44,5] Tipo: RightSquareBracket, Lexema: ]
+[44,7] Tipo: AssignOperator, Lexema: :=
+[44,10] Tipo: Identifier, Lexema: Q
+[44,11] Tipo: EndOfInstruction, Lexema: ;
+
+[45,1] Tipo: ProcedureEnd, Lexema: end-proc
+[45,9] Tipo: EndOfInstruction, Lexema: ;
+
+[47,1] Tipo: FunctionDefinition, Lexema: function
+[47,10] Tipo: Identifier, Lexema: FUN1
+[47,14] Tipo: LeftParenthesis, Lexema: (
+[47,15] Tipo: Identifier, Lexema: T
+[47,16] Tipo: IdTypeSeparator, Lexema: :
+[47,18] Tipo: IntegerDataType, Lexema: integer
+[47,25] Tipo: ListSeparator, Lexema: ,
+[47,27] Tipo: ByVal, Lexema: byval
+[47,33] Tipo: Identifier, Lexema: N2
+[47,36] Tipo: IdTypeSeparator, Lexema: :
+[47,38] Tipo: IntegerDataType, Lexema: integer
+[47,45] Tipo: RightParenthesis, Lexema: )
+[47,47] Tipo: IdTypeSeparator, Lexema: :
+[47,49] Tipo: IntegerDataType, Lexema: integer
+[47,56] Tipo: EndOfInstruction, Lexema: ;
+
+[48,1] Tipo: VariableDefinition, Lexema: var
+[48,5] Tipo: Identifier, Lexema: N
+[48,6] Tipo: IdTypeSeparator, Lexema: :
+[48,8] Tipo: IntegerDataType, Lexema: integer
+[48,15] Tipo: EndOfInstruction, Lexema: ;
+
+[49,1] Tipo: FunctionDefinition, Lexema: function
+[49,10] Tipo: Identifier, Lexema: FUNINT
+[49,16] Tipo: LeftParenthesis, Lexema: (
+[49,17] Tipo: Identifier, Lexema: T
+[49,18] Tipo: RightParenthesis, Lexema: )
+[49,20] Tipo: IdTypeSeparator, Lexema: :
+[49,22] Tipo: IntegerDataType, Lexema: integer
+[49,29] Tipo: EndOfInstruction, Lexema: ;
+
+[50,1] Tipo: ScopeStart, Lexema: begin
+
+[51,1] Tipo: FunctionEnd, Lexema: end-func
+[51,10] Tipo: Identifier, Lexema: T
+[51,12] Tipo: MultiplicationOperator, Lexema: *
+[51,14] Tipo: LiteralNumber, Lexema: 45
+[51,16] Tipo: EndOfInstruction, Lexema: ;
+
+[52,1] Tipo: ScopeStart, Lexema: begin
+
+[53,2] Tipo: ConditionalIf, Lexema: if
+[53,5] Tipo: Identifier, Lexema: T
+[53,7] Tipo: GreaterThanOperator, Lexema: >
+[53,9] Tipo: LiteralNumber, Lexema: 0
+[53,11] Tipo: ConditionalThen, Lexema: then
+
+[54,3] Tipo: Identifier, Lexema: N
+[54,5] Tipo: AssignOperator, Lexema: :=
+[54,8] Tipo: LiteralNumber, Lexema: 45
+[54,10] Tipo: EndOfInstruction, Lexema: ;
+
+[55,2] Tipo: ConditionalElse, Lexema: else
+
+[56,3] Tipo: Identifier, Lexema: N
+[56,5] Tipo: AssignOperator, Lexema: :=
+[56,8] Tipo: LiteralNumber, Lexema: 70
+[56,11] Tipo: MultiplicationOperator, Lexema: *
+[56,13] Tipo: Identifier, Lexema: FUNINT
+[56,19] Tipo: LeftParenthesis, Lexema: (
+[56,20] Tipo: LiteralNumber, Lexema: 70
+[56,22] Tipo: RightParenthesis, Lexema: )
+[56,23] Tipo: EndOfInstruction, Lexema: ;
+
+[57,2] Tipo: ConditionalEnd, Lexema: end-if
+[57,8] Tipo: EndOfInstruction, Lexema: ;
+
+[58,1] Tipo: FunctionEnd, Lexema: end-func
+[58,10] Tipo: Identifier, Lexema: N
+[58,12] Tipo: MultiplicationOperator, Lexema: *
+[58,14] Tipo: LiteralNumber, Lexema: 2
+[58,15] Tipo: EndOfInstruction, Lexema: ;
+
+[60,1] Tipo: ProcedureDefinition, Lexema: procedure
+[60,11] Tipo: Identifier, Lexema: MAIN
+[60,15] Tipo: LeftParenthesis, Lexema: (
+[60,16] Tipo: RightParenthesis, Lexema: )
+[60,17] Tipo: EndOfInstruction, Lexema: ;
+
+[61,1] Tipo: VariableDefinition, Lexema: var
+[61,5] Tipo: Identifier, Lexema: X
+[61,6] Tipo: IdTypeSeparator, Lexema: :
+[61,8] Tipo: IntegerDataType, Lexema: integer
+[61,15] Tipo: EndOfInstruction, Lexema: ;
+
+[62,1] Tipo: ScopeStart, Lexema: begin
+
+[63,2] Tipo: Identifier, Lexema: PROC1
+[63,7] Tipo: LeftParenthesis, Lexema: (
+[63,8] Tipo: RightParenthesis, Lexema: )
+[63,9] Tipo: EndOfInstruction, Lexema: ;
+
+[64,2] Tipo: Identifier, Lexema: S
+[64,4] Tipo: AssignOperator, Lexema: :=
+[64,7] Tipo: Identifier, Lexema: M
+[64,9] Tipo: AdditionOperator, Lexema: +
+[64,11] Tipo: LiteralNumber, Lexema: 1
+[64,12] Tipo: EndOfInstruction, Lexema: ;
+
+[65,2] Tipo: Identifier, Lexema: PROC2
+[65,7] Tipo: LeftParenthesis, Lexema: (
+[65,8] Tipo: Identifier, Lexema: S
+[65,9] Tipo: RightParenthesis, Lexema: )
+[65,10] Tipo: EndOfInstruction, Lexema: ;
+
+[66,2] Tipo: Identifier, Lexema: X
+[66,4] Tipo: AssignOperator, Lexema: :=
+[66,7] Tipo: Identifier, Lexema: FUN1
+[66,11] Tipo: LeftParenthesis, Lexema: (
+[66,12] Tipo: LiteralNumber, Lexema: 5
+[66,13] Tipo: ListSeparator, Lexema: ,
+[66,15] Tipo: LiteralNumber, Lexema: 8
+[66,16] Tipo: RightParenthesis, Lexema: )
+[66,17] Tipo: EndOfInstruction, Lexema: ;
+
+[67,2] Tipo: Identifier, Lexema: A
+[67,3] Tipo: LeftSquareBracket, Lexema: [
+[67,4] Tipo: LiteralNumber, Lexema: 5
+[67,5] Tipo: RightSquareBracket, Lexema: ]
+[67,7] Tipo: AssignOperator, Lexema: :=
+[67,10] Tipo: Identifier, Lexema: X
+[67,11] Tipo: EndOfInstruction, Lexema: ;
+
+[68,2] Tipo: Identifier, Lexema: show
+[68,7] Tipo: Identifier, Lexema: A
+[68,8] Tipo: LeftSquareBracket, Lexema: [
+[68,9] Tipo: Identifier, Lexema: S
+[68,11] Tipo: AdditionOperator, Lexema: +
+[68,13] Tipo: LiteralNumber, Lexema: 1
+[68,14] Tipo: RightSquareBracket, Lexema: ]
+[68,15] Tipo: EndOfInstruction, Lexema: ;
+
+[69,1] Tipo: ProcedureEnd, Lexema: end-proc
+[69,9] Tipo: EndOfInstruction, Lexema: ;

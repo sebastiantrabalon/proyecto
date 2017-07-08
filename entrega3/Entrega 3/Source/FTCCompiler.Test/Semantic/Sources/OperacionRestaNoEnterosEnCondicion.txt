@@ -1,0 +1,16 @@
+const C1 : integer = 7, C2 : boolean = true;
+var R : boolean;
+var A[1] : integer;
+
+function FUN1() : boolean;
+begin
+end-func true;
+
+procedure MAIN();
+begin
+  show C1 - C2;
+  show C2 - C1;
+  show C1 - FUN1();
+  show FUN1() - C2;
+  show FUN1() - A[1];
+end-proc;

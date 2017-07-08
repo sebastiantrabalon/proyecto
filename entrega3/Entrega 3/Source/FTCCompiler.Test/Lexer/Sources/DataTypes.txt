@@ -1,0 +1,4 @@
+﻿integer
+boolean
+const
+var

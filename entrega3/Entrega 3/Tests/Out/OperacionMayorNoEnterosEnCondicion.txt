@@ -1,0 +1,7 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\OperacionMayorNoEnterosEnCondicion.txt'...
+[11,15] SEM: Se esperaba una expresi¢n 'Integer' y se encontr¢ una del tipo 'Boolean'.
+[12,19] SEM: Se esperaba una expresi¢n 'Integer' y se encontr¢ una del tipo 'Boolean'.
+[13,21] SEM: Se esperaba una expresi¢n 'Integer' y se encontr¢ una del tipo 'Boolean'.

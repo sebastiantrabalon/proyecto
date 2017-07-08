@@ -1,0 +1,12 @@
+const M : integer = 7;
+var A : integer;
+var B : boolean;
+
+procedure MAIN();
+begin
+  if A + M then
+	A := A + 1;
+  end-if;
+
+  show M;
+end-proc;

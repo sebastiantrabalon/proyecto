@@ -1,0 +1,14 @@
+﻿const M : integer = 7, R : integer = 90;
+var N, S : integer;
+var A[12] : integer;
+
+procedure MAIN();
+var : integer;        {aca deberia loguear un error y seguir}
+begin
+  PROC1();
+  S := M + 1;
+  PROC2(S);
+  X := FUN1(5, 8);
+  A[] := X;           {aca deberia loguear un error y seguir}
+  show A[S + 1];
+end-proc;

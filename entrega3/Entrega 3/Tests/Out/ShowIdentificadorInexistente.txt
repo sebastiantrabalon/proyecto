@@ -1,0 +1,6 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\ShowIdentificadorInexistente.txt'...
+[13,9] SEM: No se encontr¢ el identificador 'X'.
+[13,8] SEM: La expresi¢n no puede ser nula.

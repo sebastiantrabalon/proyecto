@@ -1,0 +1,6 @@
+var N, S : integer;
+procedure MAIN();
+begin
+M:= 1;
+
+end-proc;

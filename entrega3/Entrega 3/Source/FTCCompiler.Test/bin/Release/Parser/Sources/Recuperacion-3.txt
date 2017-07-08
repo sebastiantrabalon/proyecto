@@ -1,0 +1,25 @@
+﻿procedure PROC2(porReferencia R : entero);        {aca deberia loguear un error y seguir}
+const T : integer = TRUE;                         {aca deberia loguear un error y seguir}
+var W11 : integer;
+var W12, Q, R : integer;
+var B : boolean;
+begin
+  S := (S + M) * 2;
+  Q := 1;
+  B := false;
+  read W11;  {lectura de teclado}
+  W12 := AW11 * 2 + S;
+  while (W12 - 2) <= R + S do
+    B := B and (W12 > 10);
+    W12 := W12 * 2;
+  end-while;
+  while W12 + M > Y / 2 do
+    Q := Q * 2;
+    W12 := W12 / 2;
+    if W12 <= R then
+      R := R + W12;
+      Q := 2Q;                                    {aca deberia loguear un error y seguir}
+    end-if;
+  end-while;
+  A[1] := Q;
+end-proc;

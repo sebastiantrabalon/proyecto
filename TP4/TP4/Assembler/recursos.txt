@@ -1,0 +1,8 @@
+Ejemplos: 
+http://www.programacion.com.py/escritorio/ensamblador/ejercicios-resueltos-en-ensamblador-8086
+
+
+Manuales:
+http://www.rinconsolidario.org/eps/asm8086/asm.html
+http://www.alpertron.com.ar/INST8088.HTM
+

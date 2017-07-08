@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\ReadIdentificadorInexistente.txt'...
+[7,9] SEM: No se encontr¢ el identificador 'X'.

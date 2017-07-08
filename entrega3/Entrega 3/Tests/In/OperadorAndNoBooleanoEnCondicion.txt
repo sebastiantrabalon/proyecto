@@ -1,0 +1,15 @@
+const C1 : integer = 7, C2 : integer = 5;
+var R : integer;
+var A[1] : integer;
+
+function FUN1() : integer;
+begin
+end-func 1;
+
+procedure MAIN();
+begin
+  show C1 and C2;
+  show C1 and FUN1();
+  show FUN1() and C2;
+  show FUN1() and A[1];
+end-proc;

@@ -1,0 +1,14 @@
+const M : integer = 7;
+var A : integer;
+var B : boolean;
+
+procedure MAIN();
+begin
+  while A > 0 do
+    if A > 0 then
+      A := M + 1;
+    end-if;
+    A := A - 1;
+  end-while;
+  show X;
+end-proc;

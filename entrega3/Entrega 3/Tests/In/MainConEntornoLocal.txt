@@ -1,0 +1,5 @@
+﻿
+procedure MAIN();
+var A : integer;
+begin
+end-proc;

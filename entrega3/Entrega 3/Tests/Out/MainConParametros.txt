@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\MainConParametros.txt'...
+SEM: El procedimiento MAIN no puede tener par metros.

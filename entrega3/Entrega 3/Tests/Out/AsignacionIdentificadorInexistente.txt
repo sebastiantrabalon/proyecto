@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\AsignacionIdentificadorInexistente.txt'...
+[4,2] SEM: No se encontr¢ el identificador 'M'.

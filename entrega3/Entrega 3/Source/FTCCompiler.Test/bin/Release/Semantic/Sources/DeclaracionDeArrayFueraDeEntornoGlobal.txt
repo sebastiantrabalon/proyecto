@@ -1,0 +1,11 @@
+﻿var B: integer;
+
+function FUN1() : boolean;
+var A[2]: integer;
+begin
+end-func true;
+
+procedure MAIN();
+begin
+  show FUN1();
+end-proc;

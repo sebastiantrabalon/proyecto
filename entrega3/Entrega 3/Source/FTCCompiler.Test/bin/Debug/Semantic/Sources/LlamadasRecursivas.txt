@@ -1,0 +1,13 @@
+﻿function FUN1() : integer;
+begin
+end-func FUN1() * 2;
+
+procedure PROC1();
+begin
+	PROC1();
+end-proc;
+
+procedure MAIN();
+begin
+  
+end-proc;

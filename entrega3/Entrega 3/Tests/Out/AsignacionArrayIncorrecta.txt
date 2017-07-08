@@ -1,0 +1,7 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\AsignacionArrayIncorrecta.txt'...
+[7,11] SEM: Se esperaba una expresi¢n 'Integer' y se encontr¢ una del tipo 'Boolean'.
+[8,8] SEM: No se encontr¢ el identificador 'X'.
+[9,8] SEM: Se esperaba una expresi¢n 'Integer' y se encontr¢ una del tipo 'Boolean'.

@@ -1,0 +1,10 @@
+﻿   { % comentario con símbolos fuera del alfabeto %
+
+		algunos tabs			y
+
+		saltos de linea
+
+		}   
+
+
+				

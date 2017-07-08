@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\AsignacionExpresionAConstante.txt'...
+[5,2] SEM: No se puede hacer una asignaci¢n a una constante

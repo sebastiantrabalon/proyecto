@@ -1,0 +1,14 @@
+const M : integer = 7, R : integer = 90;
+var N, S : integer;
+var B : boolean;
+var A[12] : integer;
+
+procedure PROC(byref N : integer);
+begin
+  N := 1;
+end-proc;
+
+procedure MAIN();
+begin
+  PROC(B);
+end-proc;

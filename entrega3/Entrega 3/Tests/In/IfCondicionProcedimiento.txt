@@ -1,0 +1,14 @@
+var A : integer;
+
+procedure PROC(byref R : integer);
+begin
+  read R;  
+end-proc;
+
+procedure MAIN();
+begin
+  if PROC(1) then
+	A := A + 1;
+  end-if;
+end-proc;
+

@@ -1,0 +1,4 @@
+﻿procedure MAIN();
+begin
+	A := and xor;
+end-proc;

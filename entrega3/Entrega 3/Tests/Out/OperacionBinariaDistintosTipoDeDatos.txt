@@ -1,0 +1,12 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\OperacionBinariaDistintosTipoDeDatos.txt'...
+[11,15] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[12,15] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[13,16] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[14,15] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[15,16] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[16,16] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[17,19] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.
+[18,21] SEM: No se pueden comparar una expresi¢n de tipo 'Integer' con una de tipo 'Boolean'.

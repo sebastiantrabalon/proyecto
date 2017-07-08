@@ -1,0 +1,30 @@
+﻿const M : integer = 7, R : integer = 90;
+var N, S : enteros;                             {aca deberia loguear un error y seguir}
+var A[12] : integer;
+
+procedure PROC1();
+var A : integer;
+var B : integer;
+var B : boolean;
+begin
+  B := M;
+  C := B > 0;
+  while C do
+    if even(B) then
+      A := A + 1;
+    end-if;
+    show LN 'Visualizacion', B, ' ', A;         {aca deberia loguear un error y seguir}
+    B := B ? 1;
+  end-while;
+end-proc;
+
+var X: integer;                                 {aca deberia loguear un error y seguir}
+procedure MAIN();
+begin
+  PROC1();
+  S := M + 1;
+  PROC2(S);
+  X := FUN1(5, 8);
+  A[5] := X;
+  show A[S + 1];
+end-proc;

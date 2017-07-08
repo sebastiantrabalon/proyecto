@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\ShowFuncionInexistente.txt'...
+[13,12] SEM: No se encontr¢ una funci¢n con nombre 'FUN1'.

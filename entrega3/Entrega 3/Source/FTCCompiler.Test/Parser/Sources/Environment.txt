@@ -1,0 +1,15 @@
+﻿const N : integer = 1, T : integer = 2;
+const M : integer = 7, R : integer = 90;
+var A : boolean;
+var N,, S : integer;
+var A[12] : integer;
+var K[1], B : integer;
+
+procedure PROC2(byref R : integer);
+const T : integer = 67;
+var W11 : integer;
+var W12, Q, R : integer;
+var B : boolean;
+begin
+	A := A + 1;
+end-proc;

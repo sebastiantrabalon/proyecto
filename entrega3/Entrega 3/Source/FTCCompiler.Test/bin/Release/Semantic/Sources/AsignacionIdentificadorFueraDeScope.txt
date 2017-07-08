@@ -1,0 +1,21 @@
+var A[12] : integer;
+var S: integer;
+
+procedure PROC1();
+var B : integer;
+begin
+show B;
+read X;
+end-proc;
+
+procedure PROC2(byref R : integer);
+var X: boolean;
+begin
+read B;
+show R;
+end-proc;
+
+procedure MAIN();
+begin
+  show A[S + 1];
+end-proc;

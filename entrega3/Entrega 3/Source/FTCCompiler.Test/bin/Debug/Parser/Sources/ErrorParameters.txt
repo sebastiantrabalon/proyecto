@@ -1,0 +1,12 @@
+﻿function FUN1(T: integer, byval : integer) : integer;
+var N: integer;
+function FUNINT(T) : integer;
+begin
+end-func T * 45;
+begin
+  if T > 0 then
+    N := 45;
+  else
+    N := 70 * FUNINT(70);
+  end-if;
+end-func N * 2;

@@ -1,0 +1,8 @@
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\bin\Release\FTCCompiler.exe.config
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\bin\Release\FTCCompiler.exe
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\bin\Release\FTCCompiler.pdb
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\obj\Release\FTCCompiler.Resources.Lexemes.resources
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\obj\Release\FTCCompiler.Resources.Messages.resources
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\obj\Release\FTCCompiler.csproj.GenerateResource.Cache
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\obj\Release\FTCCompiler.exe
+D:\Caece\Procesadores de lenguajes\FTCCompiler\FTCCompiler\obj\Release\FTCCompiler.pdb

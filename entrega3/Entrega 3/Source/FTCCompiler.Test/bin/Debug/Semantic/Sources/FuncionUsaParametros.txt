@@ -1,0 +1,13 @@
+﻿const M : integer = 7;
+var N : integer;
+var S : boolean;
+var A[12] : integer;
+
+function FUN1(T:integer) : integer;
+begin
+end-func T*5;
+
+procedure MAIN();
+begin
+N := FUN1(5);
+end-proc;

@@ -1,0 +1,3 @@
+﻿var A[12] : integer;
+{este comentario nunca lo voy a cerrar
+ A[12]:=5;

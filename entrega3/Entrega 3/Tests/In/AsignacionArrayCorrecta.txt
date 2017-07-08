@@ -1,0 +1,8 @@
+var A[2]: integer;
+var B: integer;
+
+
+procedure MAIN();
+begin
+A[1]:=1;
+end-proc;

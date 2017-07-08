@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\PasajeParametrosTipoArray.txt'...
+[13,7] SEM: En la llamada a 'PROC' no se puede pasar un array como par metro.

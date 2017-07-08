@@ -1,0 +1,8 @@
+const M : integer = 7;
+var A : integer;
+var A : boolean;
+
+procedure MAIN();
+begin
+  show M, A;
+end-proc;

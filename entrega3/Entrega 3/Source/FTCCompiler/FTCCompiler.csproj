@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E164AE83-1B4C-4432-8A7A-31B300C3CAC7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FTCCompiler</RootNamespace>
+    <AssemblyName>FTCCompiler</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Enums.cs" />
+    <Compile Include="Common\Extensions.cs" />
+    <Compile Include="Common\Token.cs" />
+    <Compile Include="Compiler.cs" />
+    <Compile Include="Lexer.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="Parsing\AssignmentOrCallParser.cs" />
+    <Compile Include="Parsing\BodyParser.cs" />
+    <Compile Include="Parsing\Common\Attributes.cs" />
+    <Compile Include="Parsing\Common\Exceptions\MainNotFoundException.cs" />
+    <Compile Include="Parsing\Common\Exceptions\UnexpectedTokenException.cs" />
+    <Compile Include="Parsing\Common\IGenerable.cs" />
+    <Compile Include="Parsing\Common\IParseable.cs" />
+    <Compile Include="Parsing\Common\IPrintable.cs" />
+    <Compile Include="Parsing\Common\ParserBase.cs" />
+    <Compile Include="Parsing\Common\ParserFactory.cs" />
+    <Compile Include="Parsing\Common\Reference.cs" />
+    <Compile Include="Parsing\Common\Statement.cs" />
+    <Compile Include="Parsing\Context\Statements.cs" />
+    <Compile Include="Parsing\DeclarationsParser.cs" />
+    <Compile Include="Parsing\EnvironmentParser.cs" />
+    <Compile Include="Parsing\Context\Environments.cs" />
+    <Compile Include="Parsing\Context\Locals.cs" />
+    <Compile Include="Parsing\Context\Parameters.cs" />
+    <Compile Include="Parsing\Context\Subroutines.cs" />
+    <Compile Include="Parsing\ExpressionParser.cs" />
+    <Compile Include="Parsing\FunctionParser.cs" />
+    <Compile Include="Parsing\IfParser.cs" />
+    <Compile Include="Parsing\FormalParametersParser.cs" />
+    <Compile Include="Parsing\ActualParametersParser.cs" />
+    <Compile Include="Parsing\ProcedureParser.cs" />
+    <Compile Include="Parsing\ProgramParser.cs" />
+    <Compile Include="Parsing\ReadParser.cs" />
+    <Compile Include="Parsing\ShowParser.cs" />
+    <Compile Include="Parsing\Trees\AdditionExpression.cs" />
+    <Compile Include="Parsing\Trees\AndExpression.cs" />
+    <Compile Include="Parsing\Trees\Assignment.cs" />
+    <Compile Include="Parsing\Trees\BinaryExpression.cs" />
+    <Compile Include="Parsing\Trees\DistinctExpression.cs" />
+    <Compile Include="Parsing\Trees\DivisionExpression.cs" />
+    <Compile Include="Parsing\Trees\EqualExpression.cs" />
+    <Compile Include="Parsing\Trees\Expression.cs" />
+    <Compile Include="Parsing\Trees\Function.cs" />
+    <Compile Include="Parsing\Trees\FunctionCallExpression.cs" />
+    <Compile Include="Parsing\Trees\GreaterThanExpression.cs" />
+    <Compile Include="Parsing\Trees\GreaterThanOrEqualExpression.cs" />
+    <Compile Include="Parsing\Trees\IdentifierExpression.cs" />
+    <Compile Include="Parsing\Trees\IfThen.cs" />
+    <Compile Include="Parsing\Trees\IfThenElse.cs" />
+    <Compile Include="Parsing\Trees\LessThanExpression.cs" />
+    <Compile Include="Parsing\Trees\LessThanOrEqualExpression.cs" />
+    <Compile Include="Parsing\Trees\LiteralBooleanExpression.cs" />
+    <Compile Include="Parsing\Trees\LiteralNumberExpression.cs" />
+    <Compile Include="Parsing\Trees\LiteralString.cs" />
+    <Compile Include="Parsing\Trees\MultiplicationExpression.cs" />
+    <Compile Include="Parsing\Trees\OrExpression.cs" />
+    <Compile Include="Parsing\Trees\PositionInArrayExpression.cs" />
+    <Compile Include="Parsing\Trees\Procedure.cs" />
+    <Compile Include="Parsing\Trees\ProcedureCall.cs" />
+    <Compile Include="Parsing\Trees\Read.cs" />
+    <Compile Include="Parsing\Trees\Show.cs" />
+    <Compile Include="Parsing\Trees\ShowLn.cs" />
+    <Compile Include="Parsing\Trees\Subroutine.cs" />
+    <Compile Include="Parsing\Trees\SubstractionExpression.cs" />
+    <Compile Include="Parsing\Trees\SyntaxTree.cs" />
+    <Compile Include="Parsing\Trees\UnaryExpression.cs" />
+    <Compile Include="Parsing\Trees\While.cs" />
+    <Compile Include="Parsing\Trees\XorExpression.cs" />
+    <Compile Include="Parsing\WhileParser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Lexemes.Designer.cs">
+      <DependentUpon>Lexemes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <DependentUpon>Messages.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Utils\Character.cs" />
+    <Compile Include="Utils\FileReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Parser.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Lexemes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lexemes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

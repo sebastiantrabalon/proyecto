@@ -1,0 +1,12 @@
+var A : integer;
+
+function FUNC1(T : integer) : boolean;
+begin
+end-func true;
+
+procedure MAIN();
+begin
+  if (FUNC1(1)) then
+	A := A + 1;
+  end-if;
+end-proc;

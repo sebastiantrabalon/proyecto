@@ -1,0 +1,13 @@
+var A[2]: integer;
+var B: integer;
+
+function FUN1() : boolean;
+begin
+end-func true;
+
+procedure MAIN();
+begin
+  B := A[FUN1()];
+  B := A[true];
+  B := A[5 > 2];
+end-proc;

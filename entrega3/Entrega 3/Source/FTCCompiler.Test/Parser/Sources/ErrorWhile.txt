@@ -1,0 +1,15 @@
+﻿procedure PROC1();
+var A : integer;
+var B : integer;
+var B : boolean;
+begin
+  B := M;
+  C := B > 0;
+  while C do
+    if even(B) then
+      A := A + 1;
+    end-if;
+    showln 'Visualizacion', B, ' ', A;
+    { B := B ? 1; }
+  end-
+end-proc;

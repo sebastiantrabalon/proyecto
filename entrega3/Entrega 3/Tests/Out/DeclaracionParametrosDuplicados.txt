@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\DeclaracionParametrosDuplicados.txt'...
+[5,42] SEM: Ya existe un identificador con el nombre 'N'.

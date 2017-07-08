@@ -1,0 +1,6 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\IfCondicionProcedimiento.txt'...
+[10,10] SEM: No se encontr¢ una funci¢n con nombre 'PROC'.
+[10,3] SEM: Se esperaba una expresi¢n 'Boolean' y se encontr¢ una del tipo 'Integer'.

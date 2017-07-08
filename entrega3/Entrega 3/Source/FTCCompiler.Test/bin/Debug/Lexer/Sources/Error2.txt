@@ -1,0 +1,3 @@
+﻿var integer1 : integer;
+integer1 := 24;
+showln 'Hola Mund, integer1;

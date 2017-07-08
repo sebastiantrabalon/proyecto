@@ -1,0 +1,6 @@
+const M : integer = 7, R : integer = 90;
+
+procedure MAIN();
+begin
+M:= 10+1*2-R;
+end-proc;

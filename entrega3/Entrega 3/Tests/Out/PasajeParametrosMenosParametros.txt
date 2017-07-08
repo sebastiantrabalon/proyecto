@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\PasajeParametrosMenosParametros.txt'...
+[13,7] SEM: La cantidad de parametros proporcionados o el tipo de los mismos no coinciden con la definici¢n de 'PROC'.

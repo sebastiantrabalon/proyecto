@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\ProcedimientoInexistente.txt'...
+[49,9] SEM: No se encontr¢ un procedimiento con nombre 'PROC20'.

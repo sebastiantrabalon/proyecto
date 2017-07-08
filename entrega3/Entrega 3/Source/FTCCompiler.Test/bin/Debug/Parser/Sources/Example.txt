@@ -1,0 +1,69 @@
+﻿const M : integer = 7, R : integer = 90;
+var N, S : integer;
+var A[12] : integer;
+
+procedure PROC1();
+var A : integer;
+var B : integer;
+var B : boolean;
+begin
+  B := M;
+  C := B > 0;
+  while C do
+    if even(B) then
+      A := A + 1;
+    end-if;
+    showLN 'Visualizacion', B, ' ', A;
+    B := B - 1;
+  end-while;
+end-proc;
+
+procedure PROC2(byref R : entero);
+const T : integer = 67;
+var W11 : integer;
+var W12, Q, R : integer;
+var B : boolean;
+begin
+  S := (S + M) * 2;
+  Q := 1;
+  B := false;
+  read W11;  {lectura de teclado}
+  W12 := AW11 * 2 + S;
+  while (W12 - 2) <= R + S do
+    B := B and (W12 > 10);
+    W12 := W12 * 2;
+  end-while;
+  while W12 + M > Y / 2 do
+    Q := Q * 2;
+    W12 := W12 / 2;
+    if W12 <= R then
+      R := R - W12;
+      Q := Q + 1;
+    end-if;
+  end-while;
+  A[1] := Q;
+end-proc;
+
+function FUN1(T: integer, byval N2 : integer) : integer;
+var N: integer;
+function FUNINT(T) : integer;
+begin
+end-func T * 45;
+begin
+  if T > 0 then
+    N := 45;
+  else
+    N := 70 * FUNINT(70);
+  end-if;
+end-func N * 2;
+
+procedure MAIN();
+var X: integer;
+begin
+  PROC1();
+  S := M + 1;
+  PROC2(S);
+  X := FUN1(5, 8);
+  A[5] := X;
+  show A[S + 1];
+end-proc;

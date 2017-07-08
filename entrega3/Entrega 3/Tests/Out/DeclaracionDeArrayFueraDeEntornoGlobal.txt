@@ -1,0 +1,5 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\DeclaracionDeArrayFueraDeEntornoGlobal.txt'...
+[4,5] SEM: No se puede declarar un array fuera del entorno global.

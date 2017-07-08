@@ -1,0 +1,6 @@
+================================================================================
+==  Compilador FTC :: 2014 :: Procesadores de Lenguajes :: Universidad CAECE  ==
+================================================================================
+Compilando 'In\AsignacionIdentificadorFueraDeScope.txt'...
+[8,7] SEM: No se encontr¢ el identificador 'X'.
+[14,7] SEM: No se encontr¢ el identificador 'B'.

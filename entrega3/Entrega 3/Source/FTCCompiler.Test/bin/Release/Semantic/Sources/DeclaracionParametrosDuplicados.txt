@@ -1,0 +1,46 @@
+const M : integer = 7, R : integer = 90;
+var N, S : integer;
+var A[12] : integer;
+
+procedure PROC2(byref N : integer, byref N : integer);
+const T : integer = 67;
+var W11 : integer;
+var W12, Q, R : integer;
+var B : boolean;
+begin
+  S := (S + M) * 2;
+  Q := 1;
+  B := false;
+  read W11;  {lectura de teclado}
+  W12 := W11 * 2 + S;
+  while (W12 - 2) <= R + S do
+    B := B and (W12 > 10);
+    W12 := W12 * 2;
+  end-while;
+  while W12 + M > Q / 2 do
+    Q := Q * 2;
+    W12 := W12 / 2;
+    if W12 <= R then
+      Q := Q + 1;
+    end-if;
+  end-while;
+end-proc;
+
+function FUN1(T: integer, byval N2 : integer) : integer;
+var N: integer;
+function FUNINT(T : integer) : integer;
+begin
+end-func T * 45;
+begin
+  if T > 0 then
+    N := 45;
+  else
+    N := 70 * FUNINT(70);
+  end-if;
+end-func N * 2;
+
+procedure MAIN();
+begin
+  S := M + 1;
+  N := FUN1(5, 8);
+end-proc;

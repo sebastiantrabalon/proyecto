@@ -1,0 +1,12 @@
+var A : integer;
+
+function FUNINT(T : integer) : boolean;
+begin
+end-func true;
+
+procedure MAIN();
+begin
+  while (FUNINT(1)) do
+	A := A + 1;
+  end-while;
+end-proc;
